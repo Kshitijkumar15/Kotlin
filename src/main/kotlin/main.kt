@@ -24,4 +24,15 @@ fun main(){
 //    var myVariableName: Int=21
 //    println("and i am  $myVariable years old")
 
+//    val String="This is a string"
+//    println(String)
+
+//    val String="This is a string"
+//    println("The value of string is $String")
+
+//    val String="This is a string"
+//    println("The value of string is ${String.length}")
+
+//    val String="Kshitij"
+//    println("The string in upper case and reverse is ${String.uppercase().reversed()}")
 }
