@@ -38,28 +38,61 @@ fun main(){
 
 //val x=3
 //    test()
+
 //    printPower(3,2)
 
-    Addnum(1,6)
+//   val pow= printPower(3,2)
+//    println("3 to the power 2 is $pow")
+
+//    Addnum(1,6)
+
+//    println(multiply(4,6))
+
+    var myList = mutableListOf<Int>(1,2,6,4,5,3)
+    println("Enter a number")
+    var userInput = readLine()?.toInt()
+    val result =numberList(myList, userInput!!)
+    println("The index of $userInput is $result")
 }
 
-//fun printPower(base: Int,exponent:Int){
+//fun printPower(base: Int,exponent:Int):{
 //var result=1
 //    for(i in 1 .. exponent){
 //        result*=base
 //    }
 //    println("$base to power of $exponent is $result" )
 //}
+
+//fun printPower(base: Int,exponent:Int):Int{
+//    var result=1
+//    for(i in 1 .. exponent){
+//        result*=base
+//    }
+//    return result
+//}
+
 //fun test(){
 //    println("Hello")
 //    println("Hi")
 //}
 
+//fun Addnum(base:Int,num:Int){
+//    var sum=0
+//    for(i in 1.. num){
+//        sum+=i
+//    }
+//    println(sum)
+//}
 
-fun Addnum(base:Int,num:Int){
-    var sum=0
-    for(i in 1.. num){
-        sum+=i
+//fun multiply(a:Int,b:Int)=a * b
+fun numberList(list: List<Int>,num: Int):Int{
+    var indexNumber = 0
+    while(indexNumber < list.count()){
+        if(list[indexNumber] == num){
+            break
+        }
+        indexNumber++
     }
-    println(sum)
+    return indexNumber
+
 }
