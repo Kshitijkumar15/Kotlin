@@ -26,4 +26,44 @@ fun main(){
 //        println("hi")
 //        x--
 //    }
+
+//    var age= readLine()?.toInt()
+//    when(age){
+//        in 0..5-> println("you are a kid")
+//        in 6..17->println("you are a teenager")
+//        18-> println("you are 18")
+//        19,20->println("you are a young adult")
+//        in 21..65->println("you are an adult")
+//        else->println("You are really old")
+//    }
+
+//    if(age in 0..5){
+//        println("you are a kid")
+//    }
+//    else if(age in 6..17){
+//        println("you are a teenager")
+//    }
+//    else if(age ==18){
+//        println("you are 18")
+//    }
+//    else if(age ==19 || age ==20){
+//        println("you are a young adult")
+//    }
+//    else if(age in 21..65){
+//        println("you are an adult")
+//    }
+//    else{
+//        println("You are really old")
+//    }
+
+//    val country = readLine()?.lowercase()
+//    when(country) {
+//        "india" -> println("Namaste")
+//        "usa" -> println("Hello")
+//        "russia" -> println("Privet")
+//        "germany" -> println("Hallo")
+//        else -> println("I don't know that")
+//    }
+
+
 }
