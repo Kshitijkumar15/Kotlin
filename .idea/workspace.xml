@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="969d0add-fa0d-4fc9-808f-e3b36e42bfc8" name="Changes" comment="Second Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ExtendedFunction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Vararg.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/main.kt" afterDir="false" />
     </list>
@@ -16,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
@@ -36,27 +38,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Kotlin.ArithmeticKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ArraysKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.BasicsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.IfKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.ListKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.LoopsKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.MainKt.executor&quot;: &quot;Run&quot;,
-    &quot;Kotlin.UserInputKt.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Kotlin.ArithmeticKt.executor": "Run",
+    "Kotlin.ArraysKt.executor": "Run",
+    "Kotlin.BasicsKt.executor": "Run",
+    "Kotlin.ExtendedFunctionKt.executor": "Run",
+    "Kotlin.IfKt.executor": "Run",
+    "Kotlin.ListKt.executor": "Run",
+    "Kotlin.LoopsKt.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
+    "Kotlin.UserInputKt.executor": "Run",
+    "Kotlin.VarargKt.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArraysKt" />
+}]]></component>
+  <component name="RunManager" selected="Kotlin.ExtendedFunctionKt">
+    <configuration name="ExtendedFunctionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExtendedFunctionKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -83,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserInputKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UserInputKt" />
+    <configuration name="VarargKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VarargKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +96,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ExtendedFunctionKt" />
+        <item itemvalue="Kotlin.VarargKt" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.LoopsKt" />
         <item itemvalue="Kotlin.ListKt" />
-        <item itemvalue="Kotlin.ArraysKt" />
-        <item itemvalue="Kotlin.UserInputKt" />
       </list>
     </recent_temporary>
   </component>
@@ -172,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704624685213</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Second Commit">
+      <option name="closed" value="true" />
+      <created>1704633972605</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704633972605</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

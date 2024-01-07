@@ -48,11 +48,11 @@ fun main(){
 
 //    println(multiply(4,6))
 
-    var myList = mutableListOf<Int>(1,2,6,4,5,3)
-    println("Enter a number")
-    var userInput = readLine()?.toInt()
-    val result =numberList(myList, userInput!!)
-    println("The index of $userInput is $result")
+//    var myList = mutableListOf<Int>(1,2,6,4,5,3)
+//    println("Enter a number")
+//    var userInput = readLine()?.toInt()
+//    val result =numberList(myList, userInput!!)
+//    println("The index of $userInput is $result")
 }
 
 //fun printPower(base: Int,exponent:Int):{
@@ -85,14 +85,14 @@ fun main(){
 //}
 
 //fun multiply(a:Int,b:Int)=a * b
-fun numberList(list: List<Int>,num: Int):Int{
-    var indexNumber = 0
-    while(indexNumber < list.count()){
-        if(list[indexNumber] == num){
-            break
-        }
-        indexNumber++
-    }
-    return indexNumber
-
-}
+//fun numberList(list: List<Int>,num: Int):Int{
+//    var indexNumber = 0
+//    while(indexNumber < list.count()){
+//        if(list[indexNumber] == num){
+//            break
+//        }
+//        indexNumber++
+//    }
+//    return indexNumber
+//
+//}
