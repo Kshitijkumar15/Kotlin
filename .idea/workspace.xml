@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="969d0add-fa0d-4fc9-808f-e3b36e42bfc8" name="Changes" comment="Second Commit" />
+    <list default="true" id="969d0add-fa0d-4fc9-808f-e3b36e42bfc8" name="Changes" comment="initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/List.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Arrays.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/If.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Loops.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/UserInput.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/UserInput.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,6 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -33,8 +42,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Kotlin.ArithmeticKt.executor": "Run",
+    "Kotlin.ArraysKt.executor": "Run",
     "Kotlin.BasicsKt.executor": "Run",
     "Kotlin.IfKt.executor": "Run",
+    "Kotlin.ListKt.executor": "Run",
+    "Kotlin.LoopsKt.executor": "Run",
     "Kotlin.MainKt.executor": "Run",
     "Kotlin.UserInputKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -45,7 +57,7 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Kotlin.UserInputKt">
+  <component name="RunManager" selected="Kotlin.ListKt">
     <configuration name="ArithmeticKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArithmeticKt" />
       <module name="Kotlin" />
@@ -53,15 +65,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IfKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IfKt" />
+    <configuration name="ArraysKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArraysKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+    <configuration name="ListKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListKt" />
+      <module name="Kotlin" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoopsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LoopsKt" />
       <module name="Kotlin" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -76,10 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ListKt" />
+        <item itemvalue="Kotlin.ArraysKt" />
         <item itemvalue="Kotlin.UserInputKt" />
-        <item itemvalue="Kotlin.IfKt" />
+        <item itemvalue="Kotlin.LoopsKt" />
         <item itemvalue="Kotlin.ArithmeticKt" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -123,12 +143,21 @@
       <option name="project" value="LOCAL" />
       <updated>1704601750934</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="initial Commit">
+      <option name="closed" value="true" />
+      <created>1704601821836</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1704601821836</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Second Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second Commit" />
+    <MESSAGE value="initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial Commit" />
   </component>
 </project>

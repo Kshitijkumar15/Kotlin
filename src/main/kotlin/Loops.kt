@@ -21,5 +21,9 @@ fun main(){
 //        println("error")
 //    }
 
-
+//var x=4
+//    while (x>2){
+//        println("hi")
+//        x--
+//    }
 }
