@@ -35,4 +35,31 @@ fun main(){
 
 //    val String="Kshitij"
 //    println("The string in upper case and reverse is ${String.uppercase().reversed()}")
+
+//val x=3
+//    test()
+//    printPower(3,2)
+
+    Addnum(1,6)
+}
+
+//fun printPower(base: Int,exponent:Int){
+//var result=1
+//    for(i in 1 .. exponent){
+//        result*=base
+//    }
+//    println("$base to power of $exponent is $result" )
+//}
+//fun test(){
+//    println("Hello")
+//    println("Hi")
+//}
+
+
+fun Addnum(base:Int,num:Int){
+    var sum=0
+    for(i in 1.. num){
+        sum+=i
+    }
+    println(sum)
 }
