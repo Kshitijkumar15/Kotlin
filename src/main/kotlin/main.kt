@@ -1,4 +1,4 @@
-fun main(){
+//fun main(){
 //    println("Hello World")
 
 //    var myVariable:Int =15
@@ -53,7 +53,7 @@ fun main(){
 //    var userInput = readLine()?.toInt()
 //    val result =numberList(myList, userInput!!)
 //    println("The index of $userInput is $result")
-}
+//}
 
 //fun printPower(base: Int,exponent:Int):{
 //var result=1
@@ -96,3 +96,68 @@ fun main(){
 //    return indexNumber
 //
 //}
+
+
+//fun main(){
+//    val list= listOf(1,2,3,4,5)
+//    val array= arrayOf(1,2,3,4,5)
+//    println("List $list")
+//    printAlternately(array)
+//}
+//
+//fun printAlternately(list: List<Int>){
+//var i=0
+//    var j=list.size-1
+//    var toggle=true
+//    while(i<=j){
+//        if(toggle){
+//            println(list[i])
+//            i++
+//        }
+//        else{
+//            println(list[j])
+//            j--
+//        }
+//        toggle=! toggle
+//    }
+//}
+//
+//fun printAlternately(array:Array<Int>){
+//    var i=0
+//    var j=array.size-1
+//    var toggle=true
+//    while(i<=j){
+//        if(toggle){
+//            println(array[i])
+//            i++
+//        }
+//        else{
+//            println(array[j])
+//            j--
+//        }
+//        toggle=! toggle
+//    }
+//}
+
+
+fun main(){
+    val a=3.0
+    val b=4.0
+    val height=2.0
+    var parallelogram=object : Shape("parallelogram",a,b,height){
+
+        init {
+            println("The parallelogram is created with side a=$a , b=$b and height h=$height")
+            println("Area is ${area()}")
+            println("Perimeter is ${perimeter()}")
+        }
+        override fun area(): Double {
+           return  a * height
+        }
+
+        override fun perimeter(): Double {
+    return  2 * a + 2 * b
+        }
+
+    }
+}

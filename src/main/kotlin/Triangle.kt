@@ -1,3 +1,5 @@
+import kotlin.random.Random
+
 //class Triangle(
 //    val a: Int,
 //    val b:Int,
@@ -20,6 +22,16 @@ class Triangle(
     val b:Int,
     val c:Int
 ) :Shape("Triangle"){
+
+    companion object{
+        fun rondomTriangle(): Triangle{
+            val sideA= Random.nextInt(1,10)
+            val sideB= Random.nextInt(1,10)
+            val sideC= Random.nextInt(1,10)
+            return Triangle(sideA,sideB,sideC)
+        }
+
+    }
     init {
         println("$name created with sides $a, $b, $c")
         println("The area of $name  is ${area()}")

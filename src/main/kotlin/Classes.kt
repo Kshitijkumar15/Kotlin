@@ -15,7 +15,10 @@ fun main(){
 //    myCircle.changeName("kshitij")
 //    println(myCircle.name)
 
-    val rect=Rectangle(5.0)
+//    val rect=Rectangle(5.0)
+
+//    val circle=Circle.rondomCircle()
+    val triangle=Triangle.rondomTriangle()
 }
 
 //fun maxArea(shape1: Shape, shape2: Shape):Double{
