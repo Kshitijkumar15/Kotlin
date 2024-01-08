@@ -9,5 +9,17 @@ fun main(){
 //    val myCircle=Circle(5.1)
 
 // val myTriangle=Triangle(2,4,6)
-    println(sqrt(9.0))
+//    println(sqrt(9.0))
+
+//    val myCircle=Circle(5.1)
+//    myCircle.changeName("kshitij")
+//    println(myCircle.name)
+
+    val rect=Rectangle(5.0)
 }
+
+//fun maxArea(shape1: Shape, shape2: Shape):Double{
+//    val shape1Area=shape1.area()
+//    val shape2Area=shape2.area()
+//    return  if (shape1Area<shape2Area) shape1Area else shape2Area
+//}
